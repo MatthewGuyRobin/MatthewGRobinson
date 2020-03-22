@@ -1,0 +1,23 @@
+.text-center{
+  text-align: center;
+}
+
+.font-medium{
+  font-weight: 500;
+}
+
+.flex{
+  display: flex
+}
+
+.flex-row-reverse{
+  flex-direction: row-reverse;
+}
+
+.text-6xl{
+  font-size: 4rem;
+}
+
+.text-5xl{
+  font-size: 3rem;
+}

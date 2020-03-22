@@ -1,0 +1,62 @@
+
+body{
+  margin: 0;
+}
+
+.headerandtitlefont{
+  padding: 20px;
+  font-family: 'Anton', sans-serif;
+  text-shadow:  2px 2px 2px whitesmoke;
+
+}
+
+.text-center{
+  text-align: center;
+}
+
+.font-medium{
+  font-weight: 500;
+}
+
+.flex{
+  display: flex
+}
+
+.flex-row-reverse{
+  flex-direction: row-reverse;
+}
+
+.text-6xl{
+  font-size: 4rem;
+}
+
+.text-5xl{
+  font-size: 3rem;
+}
+
+.header{
+  background-image: url('./img/mountains-clouds-forest.jpg');
+  background-position: 40%;
+  width:100%
+}
+
+.quotefont{
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px
+}
+
+.half{
+  padding-left: 25%;
+  padding-right: 25%;
+}
+.skills{
+  position: absolute;
+  bottom: 120px;
+  left:80px;
+  text-align: center;
+  
+}
+.skillsfont{
+  font-family: 'Anton', sans-serif;
+  font-size:25px
+}
