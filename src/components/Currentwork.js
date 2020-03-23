@@ -9,9 +9,7 @@ export default function Currentwork() {
             <div>
                 <p>I am currently on an apprenticeship at Code Nation studying to be a software developer. I have taken the
                 decision to further myself by developing skills within the tech industry as this is what I am passionate
-                about. Since being a child I was always interested in how and why technology worked while most boys my
-                age were playing offline on their Playstation 2, I was playing on a computer online with real people
-                around the world, this is what first opened my eyes to the possibilities of technology.</p>
+                about. I want to be a developer as this is a field that is constantly updated and therefore theres always something more to learn. Since being a child I was always interested in why and how technology worked while most boys my age were playing LAN on their Playstation 2 I was playing online with people around the world, by todays standards that is nothing special but back in 2004 and at ten years old you could certainly say my attention was caught. </p>
             </div>
         </div>
     )

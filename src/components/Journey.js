@@ -7,11 +7,7 @@ export default function Journey() {
                 <h1 className="text-center border-black titlefont font-medium">journey</h1>
             </div>
             <div>
-                <p> I am currently on an apprenticeship at Code Nation studying to be a software developer. I have taken the
-                decision to further myself by developing skills within the tech industry as this is what I am passionate
-                about. Since being a child I was always interested in how and why technology worked while most boys my
-                age were playing offline on their Playstation 2, I was playing on a computer online with real people
-                around the world, this is what first opened my eyes to the possibilities of technology.</p>
+                <p>The journey that has led me to Code Nation began January 2019 when I came across an advertisement, prior to this I had been searching for a course that would develop my skills & give me an opportunity at a brighter career. I have always been taught that education is key and to follow something that you're interested in. </p>
             </div>
         </div>
     )
