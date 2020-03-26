@@ -13,6 +13,7 @@ export default function Links() {
             <div className="headerlinks flex flex-row-reverse headerandtitlefont text-6xl">Achievements</div>
             <br/>
             <Navbar />
+            <br></br>
             <div className="linkcontainer">
                 <a href="https://www.linkedin.com/in/matthew-robinson-280b161a0/"><img className="imagelink" src={linkedin} alt="linkedin" /> </a> <a href="https://github.com/MatthewGuyRobin"><img className="imagegit" src={github} alt="github" /> </a> <a href="https://wearecodenation.com/"><img className="imagecode" src={code} alt="codenation" /> </a>
             </div>

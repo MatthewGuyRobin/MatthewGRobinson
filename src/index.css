@@ -63,7 +63,8 @@ ul{
 ul.navtext{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly
+  justify-content: space-evenly;
+  font-family: 'Dosis', sans-serif;
 }
 .half{
   padding-left: 25%;
@@ -115,10 +116,10 @@ ul.navtext{
 .outside{
   /* border: green solid; */
   flex-direction: column;
-  width:45%;
+  width:47%;
   position: absolute;
   top: 350px;
-  margin-left: 5px;
+  margin-left: 15px;
 
 }
 .image{
@@ -133,7 +134,7 @@ ul.navtext{
 /* acheivements */
 
 .education-container{
-  width:45%;
-  margin-left: 725px;
-  margin-right: 30px;
+  width:47%;
+  margin-left: 750px;
+  /* margin-right: 2px; */
 }
