@@ -7,11 +7,11 @@ function Navbar() {
     <Router>
         <nav className="navcontainer">
             <ul className="navtext">
-                <li className="navtext">
-                    <Link to="/">Home</Link>
+                <li>
+                    <Link className="navbord" to="/">Home</Link>
                 </li>
                 <li>
-                    <Link to="/links">Achievements</Link>
+                    <Link className="navbord" to="/links">Achievements</Link>
                 </li>
             </ul>
         </nav>
