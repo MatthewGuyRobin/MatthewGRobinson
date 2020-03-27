@@ -4,7 +4,7 @@ import Code from '../img/CodeScreenShot.png';
 
 export default function ReactDisplay() {
     return (
-        <div className="outside">
+        <div className="react-container">
             <h3 className="title react-text">React - Twitter Clone Project</h3>
             <div className="sceenshot">
                 <img className="image" src={Screenshot} alt="twitter-clone-screen-shot" />

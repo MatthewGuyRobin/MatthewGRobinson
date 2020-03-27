@@ -16,18 +16,19 @@ export default class App extends Component {
         <div>
           <Header />
           <br></br>
-          <Navbar />
+          {/* <Navbar /> */}
           <br></br>
-          <Quote />
-          <div className="half">
-          <Currentwork />
+          {/* <Quote /> */}
+          {/* <div className="half"> */}
+          <div>
+          {/* <Currentwork /> */}
             <br></br>
-            <Recent />
+            {/* <Recent /> */}
             <br></br>
-            <Journey />
+            {/* <Journey /> */}
             <br></br>
           </div>
-          <Skills />
+          {/* <Skills /> */}
         </div>
       )
     }

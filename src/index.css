@@ -9,8 +9,8 @@ body{
 .headerandtitlefont{
   padding: 20px;
   font-family: 'Anton', sans-serif;
-  text-shadow:  2px 2px 2px whitesmoke;
-
+  text-shadow:  1px 1px 1px black;
+  color: lavenderblush
 }
 
 .text-center{
@@ -39,9 +39,10 @@ body{
 
 .header{
   background-image: url('./img/mountains-clouds-forest.jpg');
-  background-position: 40%;
+  background-position: 100%;
   /* width:100% */
-  height:250px
+  /* height:250px; */
+  height:100vh
 }
 
 .headerlinks{
@@ -51,23 +52,47 @@ body{
   /* width:100% */
 }
 
-.quotefont{
-  font-family: 'Great Vibes', cursive;
-  font-size: 35px
-}
-
 a{
   text-decoration: none;
 }
 ul{
   list-style-type: none;
+  border: 1px white; 
 }
+
+.navbord{
+  color: lavenderblush;
+  border: 1px solid white;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+}
+
 ul.navtext{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   font-family: 'Dosis', sans-serif;
 }
+
+.navholder{
+  background-color: darkgray;
+  border-radius: 15px;
+  padding:5px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.navcontainer{
+  border: thin white;
+}
+.navcontainer:hover{
+  color: transparent; 
+    border: transparent !important;
+}
+
 .half{
   padding-left: 25%;
   padding-right: 25%;
@@ -93,6 +118,8 @@ ul.navtext{
   margin-left: 700px;
   background-color: whitesmoke;
   border-radius: 15px;
+  position: absolute;
+  top: 535px
 }
 .imagelink{
   width:40px;
@@ -109,7 +136,6 @@ ul.navtext{
 /* React Display */
 
 .sceenshot{
-  /* border: red solid; */
   padding-left: 3px;
   padding-right: 3px;
 
@@ -117,12 +143,11 @@ ul.navtext{
 .title{
   text-align: center;
 }
-.outside{
-  /* border: green solid; */
+.react-container{
   flex-direction: column;
   width:47%;
   position: absolute;
-  top: 381px;
+  top: 540px;
   margin-left: 15px;
   background-color: whitesmoke;
   border-radius: 15px;
@@ -144,9 +169,14 @@ ul.navtext{
   background-color: whitesmoke;
   position: absolute;
   left: 697px;
-  top: 430px;
+  top: 590px;
   border-radius: 15px;
   padding-left: 5px;
   padding-right: 5px;
+}
 
+/*  Journey */
+
+.journey-holder{
+  text-align: center;
 }
