@@ -90,7 +90,9 @@ ul.navtext{
   display: flex;
   justify-content: space-around;
   width:50%;
-  margin-left: 700px
+  margin-left: 700px;
+  background-color: whitesmoke;
+  border-radius: 15px;
 }
 .imagelink{
   width:40px;
@@ -120,8 +122,10 @@ ul.navtext{
   flex-direction: column;
   width:47%;
   position: absolute;
-  top: 350px;
+  top: 381px;
   margin-left: 15px;
+  background-color: whitesmoke;
+  border-radius: 15px;
 
 }
 .image{
@@ -136,7 +140,13 @@ ul.navtext{
 /* acheivements */
 
 .education-container{
-  width:47%;
-  margin-left: 750px;
-  /* margin-right: 2px; */
+  width:50%;
+  background-color: whitesmoke;
+  position: absolute;
+  left: 697px;
+  top: 430px;
+  border-radius: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+
 }
