@@ -77,7 +77,7 @@ ul.navtext{
 }
 
 .navholder{
-  background-color: darkgray;
+  background-color: slategrey;
   border-radius: 15px;
   padding:5px;
   margin-top: 5px;
@@ -88,25 +88,23 @@ ul.navtext{
 .navcontainer{
   border: thin white;
 }
-.navcontainer:hover{
-  color: transparent; 
-    border: transparent !important;
+
+/*  api */
+
+.api-container{
+  position: absolute;
+  top: 1040px;
+  left: 700px;
+  text-align: center;
+  width:50%;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
 }
 
-.half{
-  padding-left: 25%;
-  padding-right: 25%;
-}
-.skills{
-  position: absolute;
-  bottom: 120px;
-  left:80px;
-  text-align: center;
-  
-}
-.skillsfont{
-  font-family: 'Anton', sans-serif;
-  font-size:25px
+.api-center{
+display: flex
 }
 
 /* links css */
@@ -138,11 +136,12 @@ ul.navtext{
 .sceenshot{
   padding-left: 3px;
   padding-right: 3px;
-
 }
+
 .title{
   text-align: center;
 }
+
 .react-container{
   flex-direction: column;
   width:47%;
@@ -151,13 +150,14 @@ ul.navtext{
   margin-left: 15px;
   background-color: whitesmoke;
   border-radius: 15px;
-
 }
+
 .image{
   max-width: 100%;
   display: block;
   max-height: 100%;
 }
+
 .react-text{
   font-family: 'Dosis', sans-serif;
 }
@@ -179,4 +179,14 @@ ul.navtext{
 
 .journey-holder{
   text-align: center;
+}
+
+/* recent */
+.recent-holder{
+  position: absolute;
+  border: yellow solid;
+  width:50%;
+  font-family: 'Dosis', sans-serif;
+  left: 695px;
+  top: 1200px;
 }

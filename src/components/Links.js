@@ -5,7 +5,8 @@ import github from '../img/GitHub.png';
 import code from '../img/codenation.png';
 import ReactDisplay from './ReactDisplay';
 import Achievements from './Achievements';
-import Journey from './Journey'
+import Journey from './Journey';
+import Skills from './Skills';
 
 
 export default function Links() {
@@ -23,6 +24,7 @@ export default function Links() {
                 <ReactDisplay />
                 <Achievements />
                 <Journey />
+                <Skills />
             </div>
         </div>
     )

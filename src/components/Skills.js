@@ -1,17 +1,14 @@
 import React from 'react'
+import chuck from '../img/SpaceXScreenShot.png'
 
 export default function Skills() {
     return (
-        <div className="skills">
-            <h4 className="skillsfont">Skills</h4>
-            <dl>
-                <dt className="skillsfont">Organised</dt>
-                <dt className="skillsfont">Javascript</dt>
-                <dt className="skillsfont">Problem Solver</dt>
-                <dt className="skillsfont">HTML</dt>
-                <dt className="skillsfont">React</dt>
-                <dt className="skillsfont">CSS</dt>
-            </dl>
+        <div className="api-container">
+            <h3 className="react-text title">SpaceX API</h3>
+            <div className="screenshot">
+                <img className="image" src={chuck} alt="chucknorrisscreenshot" />
+                <p>On this project using the React library I have created a button so that on click a new Chuck Norris joke is generated. Created a state with an array called data that is empty. This has been done so that when the function componentDidMount is run it fetches one joke from the url, changes this to json data and we use setState to update the value in the empty array.</p>
+            </div>
         </div>
     )
 }

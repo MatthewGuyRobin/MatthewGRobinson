@@ -8,7 +8,7 @@ export default function Header() {
             <h2 className="flex flex-row-reverse headerandtitlefont text-5xl">Junior Developer</h2>
             <br></br>
             <br></br>
-            <Navbar/>
+            <Navbar />
         </div>
     )
 }
