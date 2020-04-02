@@ -7,7 +7,6 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 export default class App extends Component {
 
 
-
   componentDidMount() {
     document.title = "Matthew Guy Robinson";
   }
@@ -16,10 +15,15 @@ export default class App extends Component {
     return (
       <div>
         <BrowserRouter>
+
           <Switch>
-            <Route path="/MatthewGRobinson" component={Home} exact />
+
+            <Route path="/" component={Home} exact />
+
             <Route path="/links" component={Links} />
+
           </Switch>
+
         </BrowserRouter>
       </div>
     )
