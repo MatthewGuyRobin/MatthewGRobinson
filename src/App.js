@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Home from "./components/Home";
-import Links from "./components/Links";
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Success from "./components/Success"
 
 
 export default class App extends Component {
@@ -20,7 +20,7 @@ export default class App extends Component {
 
             <Route path="/MatthewGRobinson" component={Home} exact />
 
-            <Route path="/links" component={Links} />
+            <Route path="/Success" component={Success} />
 
           </Switch>
 

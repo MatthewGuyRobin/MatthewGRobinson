@@ -9,7 +9,7 @@ import Journey from './Journey';
 import Skills from './Skills';
 
 
-export default function Links() {
+export default function Success() {
     return (
         <div>
             <div className="headerlinks flex flex-row-reverse headerandtitlefont text-6xl">Achievements</div>
